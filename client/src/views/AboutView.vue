@@ -1,15 +1,22 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div class="row">
+        <div class="col-2 offset-2">
+            <img src="https://picsum.photos/id/237/200/300" class="img-fluid">
+        </div>
+        <div class="col-6">
+            <Bio></Bio>
+        </div>
+    </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<script>
+import Bio from "@/components/Bio.vue"
+export default {
+    components: {Bio},
+    name: "AboutView",
 }
+</script>
+
+<style scoped>
+
 </style>

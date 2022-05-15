@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="lista + routes" />
+    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Bio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/NewArticle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Preview.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/NewArticleView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/NewArticleView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/server/package.json" />
+  </component>
   <component name="ProjectId" id="29AMNZQ1tNQNW7XYbOnyKBW0spX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,10 +57,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jovangliguroski/Documents/School/FBMI ČVUT/4. Semester/Tvorba webových aplikací/aktuality_api/client/src/components",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/client/src/views" />
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client/src/router" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +80,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652551399003</updated>
-      <workItem from="1652551401876" duration="6878000" />
+      <workItem from="1652551401876" duration="13830000" />
+      <workItem from="1652626475613" duration="10494000" />
+      <workItem from="1652642576493" duration="950000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652552204143</created>
@@ -63,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652614520552</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <created>1652614718675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652614718675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +126,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="lista + routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="lista + routes" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

@@ -1,19 +1,17 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import {RouterView} from 'vue-router'
 import Navigation from "@/components/Navigation.vue";
+import Header from "@/components/Header.vue";
 </script>
 
 <template>
-  <header>
-    <Navigation></Navigation>
-  </header>
-
-  <RouterView />
+    <Navigation/>
+    <Header/>
+    <div class="container-fluid bg-white">
+        <RouterView/>
+    </div>
 </template>
 
 <style>
-*{
-  padding: 0;
-  margin: 0;
-}
+
 </style>
