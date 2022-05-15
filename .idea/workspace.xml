@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Article.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Bio.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/NewArticle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Preview.vue" afterDir="false" />
+    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="Vytvoren zaklad stranky">
+      <change afterPath="$PROJECT_DIR$/server/routes/articles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/TheWelcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/WelcomeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/AboutView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/NewArticleView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/NewArticleView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -82,7 +69,7 @@
       <updated>1652551399003</updated>
       <workItem from="1652551401876" duration="13830000" />
       <workItem from="1652626475613" duration="10494000" />
-      <workItem from="1652642576493" duration="950000" />
+      <workItem from="1652642576493" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652552204143</created>
@@ -105,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652614718675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Vytvoren zaklad stranky">
+      <created>1652643608043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652643608043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +121,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="lista + routes" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Vytvoren zaklad stranky" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vytvoren zaklad stranky" />
   </component>
 </project>
