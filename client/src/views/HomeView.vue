@@ -3,43 +3,17 @@ import Article from "@/components/Article.vue";
 import Preview from "@/components/Preview.vue";
 
 export default {
-    components: {Preview, Article},
-    data() {
-        return {
-            articles: [
-                {
-                    id: 1,
-                    image: 'https://picsum.photos/seed/picsum/500',
-                    title: "Title",
-                    date: new Date(),
-                    text: `Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam egestas wisi a erat.
-Integer tempor. Pellentesque ipsum. Integer malesuada. Vestibulum fermentum tortor id mi. Aenean placerat.
-Pellentesque arcu. Phasellus rhoncus.
-`
-                },
-                {
-                    id: 2,
-                    image: 'https://picsum.photos/seed/picsum/500',
-                    title: "Title",
-                    date: new Date(),
-                    text: `Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam egestas wisi a erat.
-Integer tempor. Pellentesque ipsum. Integer malesuada. Vestibulum fermentum tortor id mi. Aenean placerat.
-Pellentesque arcu. Phasellus rhoncus.
-`
-                },
-                {
-                    id: 3,
-                    image: 'https://picsum.photos/seed/picsum/500',
-                    title: "Title",
-                    date: new Date(),
-                    text: `Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam egestas wisi a erat.
-Integer tempor. Pellentesque ipsum. Integer malesuada. Vestibulum fermentum tortor id mi. Aenean placerat.
-Pellentesque arcu. Phasellus rhoncus.
-`
-                },
-            ]
-        }
+  components: {Preview, Article},
+  data() {
+    return {
+      articles: []
     }
+  },
+  async created() {
+    const res = await fetch('http://localhost:3000/articles',{method:'GET'});
+    console.log(res);
+    this.articles = await res.json();
+  }
 }
 </script>
 
