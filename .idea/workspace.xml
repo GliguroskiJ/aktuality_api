@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="created database">
-      <change afterPath="$PROJECT_DIR$/server/articles.sqlite" afterDir="false" />
+    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="working test Create and Read. Delete and Update next...">
+      <change afterPath="$PROJECT_DIR$/articles.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d468751f-aa85-4634-9577-ad88b983dfaa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d468751f-aa85-4634-9577-ad88b983dfaa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Article.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/articles.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server/articles.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +66,11 @@
       <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/client/src/router" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -101,7 +109,8 @@
       <workItem from="1652551401876" duration="13830000" />
       <workItem from="1652626475613" duration="10494000" />
       <workItem from="1652642576493" duration="7313000" />
-      <workItem from="1652651005646" duration="605000" />
+      <workItem from="1652651005646" duration="4054000" />
+      <workItem from="1652739471600" duration="4269000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652552204143</created>
@@ -152,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652650789881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="working test Create and Read. Delete and Update next...">
+      <created>1652653740791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652653740792</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +194,7 @@
     <MESSAGE value="server settings" />
     <MESSAGE value="postman CRUD" />
     <MESSAGE value="created database" />
-    <option name="LAST_COMMIT_MESSAGE" value="created database" />
+    <MESSAGE value="working test Create and Read. Delete and Update next..." />
+    <option name="LAST_COMMIT_MESSAGE" value="working test Create and Read. Delete and Update next..." />
   </component>
 </project>

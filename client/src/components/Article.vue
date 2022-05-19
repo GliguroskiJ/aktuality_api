@@ -4,6 +4,7 @@
       <h3>{{ article.title }} #{{ article.id }}</h3>
       <h6>{{ formattedDate }}</h6>
       <p v-html="article.text"></p>
+      <button class="btn-danger" @click="del(article.id)">Delete</button>
     </div>
   </div>
 </template>
@@ -35,9 +36,17 @@ export default {
     async getData(id) {
       const res = await fetch(`http://localhost:3000/articles/${id}`, {method: 'GET'});
       return res.json();
+    },
+    async del(id) {
+      try {
+        const res = await fetch(`http://localhost:3000/articles/${id}`, {method: 'DELETE'});
+        alert("Deleted!");
+        return res.json();
+      } catch (e) {
+        alert(e);
+      }
     }
   }
-
 }
 </script>
 
