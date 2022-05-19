@@ -2,7 +2,7 @@
     <div class="card">
         <div class="row">
             <div class="col-xl-3 col-lg-4">
-                <img :src="image" alt="" class="card-img img-fluid p-1">
+                <img :src="image" alt="" class="card-img img-fluid p-1 w-100 h-100">
             </div>
             <div class="col-xl-9 col-lg-8">
                 <div class="card-body">

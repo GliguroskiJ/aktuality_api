@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="working test Create and Read. Delete and Update next...">
-      <change afterPath="$PROJECT_DIR$/articles.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d468751f-aa85-4634-9577-ad88b983dfaa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d468751f-aa85-4634-9577-ad88b983dfaa.xml" afterDir="false" />
+    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="working delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Article.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Bio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Bio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NewArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewArticle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Preview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Preview.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/AboutView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/articles.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server/articles.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <workItem from="1652626475613" duration="10494000" />
       <workItem from="1652642576493" duration="7313000" />
       <workItem from="1652651005646" duration="4054000" />
-      <workItem from="1652739471600" duration="4269000" />
+      <workItem from="1652739471600" duration="8441000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652552204143</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652653740792</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="working delete">
+      <created>1652990426539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652990426539</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +203,7 @@
     <MESSAGE value="postman CRUD" />
     <MESSAGE value="created database" />
     <MESSAGE value="working test Create and Read. Delete and Update next..." />
-    <option name="LAST_COMMIT_MESSAGE" value="working test Create and Read. Delete and Update next..." />
+    <MESSAGE value="working delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="working delete" />
   </component>
 </project>

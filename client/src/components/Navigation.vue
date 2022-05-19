@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container sticky-top bg-white">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <router-link class="nav-link text-dark" to="/">

@@ -20,8 +20,8 @@
         </div>
         <div class="row mb-3">
           <div class="col">
-            <label class="form-label">Image</label>
-            <input @change="onImage" class="form-control" type="file" id="file">
+            <label class="form-label">Image URL</label>
+            <input v-model="article.image" class="form-control" type="text" id="file">
           </div>
         </div>
       </div>
@@ -45,9 +45,6 @@ export default {
     }
   },
   methods: {
-    onImage(e) {
-
-    },
     async send() {
       try {
         console.log(this.article);
@@ -60,6 +57,7 @@ export default {
               }
             }
         )
+        window.location.assign("http://localhost:3001");
         alert("Saved!");
       } catch (e) {
         alert(e);
