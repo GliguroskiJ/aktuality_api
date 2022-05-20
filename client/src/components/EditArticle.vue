@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="card-footer">
-      <button type="button" @click="send" class="btn float-end btn-primary"><em class="bi-check"/></button>
+      <button type="button" @click="editData" class="btn float-end btn-primary"><em class="bi-check"/></button>
     </div>
   </div>
 </template>
@@ -38,19 +38,30 @@ export default {
   data() {
     return {
       article: {
+        id: null,
         title: null,
         text: null,
         image: null
       }
     }
   },
+  async mounted() {
+    const id = this.$route.params.id;
+    this.getData(id);
+  },
   methods: {
-    async send() {
+    async getData(id) {
+      const res = (await fetch(`http://localhost:3000/articles/${id}`, {method: 'GET'}));
+      const data = await res.json();
+      console.log(data);
+      this.article = data;
+    },
+    async editData(){
       try {
         console.log(this.article);
-        await fetch('http://localhost:3000/articles',
+        await fetch(`http://localhost:3000/articles/${this.article.id}`,
             {
-              method: 'POST',
+              method: 'PATCH',
               body: JSON.stringify(this.article),
               headers:{
                 'Content-type':'application/json'
@@ -58,7 +69,7 @@ export default {
             }
         )
         window.location.assign("http://localhost:3001");
-        alert("Saved!");
+        alert("Edited!");
       } catch (e) {
         alert(e);
       }

@@ -29,7 +29,7 @@ const router = createRouter({
             component: Article
         },
         {
-            path: '/earticle',
+            path: '/earticle/:id',
             name: 'earticle',
             component: UpdateArticleView
         }
