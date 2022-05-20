@@ -43,10 +43,17 @@ export default {
     },
     async del(id) {
       try {
-        const res = await fetch(`http://localhost:3000/articles/${id}`, {method: 'DELETE'});
-        alert("Deleted!");
-        window.location.assign("http://localhost:3001");
-        return res.json();
+        const result = confirm("Want to delete?");
+        if (result) {
+          const res = await fetch(`http://localhost:3000/articles/${id}`, {method: 'DELETE'});
+          alert("Deleted!");
+          window.location.assign("http://localhost:3001");
+          return res.json();
+        }
+        else{
+          alert("Nothing was deleted!");
+          window.location.assign("http://localhost:3001");
+        }
       } catch (e) {
         alert(e);
       }

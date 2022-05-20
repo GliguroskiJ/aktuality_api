@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="updated router for edit article + some View and Vue files">
+    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="probably done, will test and try to fix some errs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Article.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/EditArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EditArticle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1652626475613" duration="10494000" />
       <workItem from="1652642576493" duration="7313000" />
       <workItem from="1652651005646" duration="4054000" />
-      <workItem from="1652739471600" duration="14387000" />
+      <workItem from="1652739471600" duration="14903000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652552204143</created>
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653047925276</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="probably done, will test and try to fix some errs">
+      <created>1653052815856</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653052815856</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +223,7 @@
     <MESSAGE value="edit btn added, edited frontend + added some articles to work with. Next: working edit" />
     <MESSAGE value="updated router for edit article + some Views and Vue files" />
     <MESSAGE value="updated router for edit article + some View and Vue files" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated router for edit article + some View and Vue files" />
+    <MESSAGE value="probably done, will test and try to fix some errs" />
+    <option name="LAST_COMMIT_MESSAGE" value="probably done, will test and try to fix some errs" />
   </component>
 </project>
