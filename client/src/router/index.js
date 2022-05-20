@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import NewArticleView from "../views/NewArticleView.vue"
 import AboutView from "../views/AboutView.vue"
 import Article from '../components/Article.vue'
+import UpdateArticleView from "../views/UpdateArticleView.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
             path: '/article/:id',
             name: 'article',
             component: Article
+        },
+        {
+            path: '/earticle',
+            name: 'earticle',
+            component: UpdateArticleView
         }
     ]
 })

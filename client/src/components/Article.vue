@@ -5,7 +5,9 @@
       <h6>{{ formattedDate }}</h6>
       <p v-html="article.text"></p>
       <button class="btn-danger text-black float-end" @click="del(article.id)"><em class="bi-trash"></em> Delete</button>
-      <button class="btn-info float-end me-3" @click=""><em class="bi-pencil"></em> Edit</button>
+      <router-link to="/earticle">
+        <button class="btn-info float-end me-3" @click=""><em class="bi-pencil"></em> Edit</button>
+      </router-link>
     </div>
   </div>
   <footer style="height: 10vh;"></footer>
