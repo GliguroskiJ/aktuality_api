@@ -1,5 +1,5 @@
 <template>
-<div class="card">
+<div class="card bg-dark text-white" style="">
     <div class="card-body">
         <div class="card-title">CVUT News</div>
         <div class="card-subtitle">Denní zpravodajstvi</div>

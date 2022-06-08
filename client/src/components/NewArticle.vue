@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card text-white bg-dark">
     <div class="card-body">
       <div class="card-title">
         <h3>New Article</h3>
@@ -9,19 +9,19 @@
         <div class="row mb-3">
           <div class="col">
             <label class="form-label">Title</label>
-            <input v-model="article.title" type="text" class="form-control" placeholder="Title"/>
+            <input v-model="article.title" type="text" class="form-control bg-dark text-white" placeholder="Enter title here"/>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col">
             <label class="form-label">Text</label>
-            <textarea v-model="article.text" class="form-control" rows="5"></textarea>
+            <textarea v-model="article.text" class="form-control bg-dark text-white" rows="9" placeholder="Enter text here"></textarea>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col">
             <label class="form-label">Image URL</label>
-            <input v-model="article.image" class="form-control" type="text" id="file">
+            <input v-model="article.image" class="form-control bg-dark text-white" type="text" placeholder="Enter image URL here">
           </div>
         </div>
       </div>

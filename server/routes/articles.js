@@ -45,6 +45,7 @@ router.patch("/:id", (req, res) => {
                 "UPDATE article SET image = ?, title = ?, date = ?, text = ? WHERE id = ?"
             );
             stm.run(article.image, article.title,article.date,article.text,parseInt(id));
+            res.sendStatus(200);
         } else {
             res.sendStatus(404)
         }

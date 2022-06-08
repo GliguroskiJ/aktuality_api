@@ -1,12 +1,12 @@
 <template>
-  <div className="row">
-    <div className="col-md-6 offset-md-3 p-5 bg-light">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 p-5 bg-dark text-white rounded">
       <h3>{{ article.title }}</h3>
       <h6>{{ formattedDate }}</h6>
       <p v-html="article.text"></p>
-      <button class="btn-danger text-black float-end" @click="del(article.id)"><em class="bi-trash"></em> Delete</button>
+      <button class="btn btn-danger text-black float-end" @click="del(article.id)"><em class="bi-trash"></em> Delete</button>
       <router-link :to="`/earticle/${article.id}`">
-        <button class="btn-info float-end me-3"><em class="bi-pencil"></em> Edit</button>
+        <button class="btn btn-info float-end me-3"><em class="bi-pencil"></em> Edit</button>
       </router-link>
     </div>
   </div>
