@@ -18,8 +18,8 @@ export default {
 </script>
 
 <template>
-  <div class="row">
-    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 pb-3 pt-3" v-for="article in articles">
+  <div class="row justify-content-center">
+    <div class="col-10 pb-3 pt-3" v-for="article in articles">
       <Preview :id="article.id" :title="article.title" :date="article.date" :text="article.text" :image="article.image"></Preview>
     </div>
   </div>

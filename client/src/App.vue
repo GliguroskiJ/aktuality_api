@@ -5,9 +5,9 @@ import Header from "@/components/Header.vue";
 </script>
 
 <template>
-    <Navigation/>
-    <Header/>
-    <RouterView/>
+    <Navigation class="mx-0"/>
+    <Header class="mx-0"/>
+    <RouterView class="mx-0"/>
 </template>
 
 <style>

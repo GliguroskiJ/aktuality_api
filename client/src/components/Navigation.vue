@@ -1,26 +1,26 @@
 <template>
-  <div class="sticky-top bg-black" style="width: 100vw; filter: drop-shadow(0 0 0.5rem white);">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+  <div class="sticky-top mx-0" style="width: 100vw; box-shadow: 0 2px 10px 0 #a9a9a9; background-color: rgba(169,169,169,0.85); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);">
+    <header class="d-flex flex-wrap justify-content-center py-0 mb-4">
       <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <router-link class="nav-link text-dark" to="/">
-          <span class="fs-3 ms-3 text-white">ČVUT News</span>
+          <href class="fs-2 ms-3 text-black">ČVUT News</href>
         </router-link>
       </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item">
+      <ul class="mt-3">
+        <li class="nav-item btn bg-dark border-0" style="border-radius: 10px;">
           <router-link class="nav-link text-white" to="/">
-            <em class="bi-house"></em> Home
+            Home
           </router-link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item btn bg-dark mx-1 border-0" style="border-radius: 10px">
           <router-link class="nav-link text-white" to="/about">
-            <em class="bi-info-circle-fill"></em> About
+            About
           </router-link>
         </li>
-        <li class="nav-item me-3">
+        <li class="nav-item me-3 btn bg-dark border-0" style="border-radius: 10px">
           <router-link class="nav-link text-white" to="/narticle">
-            <em class="bi-plus-circle"></em> New article
+            New article
           </router-link>
         </li>
       </ul>
@@ -35,5 +35,13 @@ export default {
 </script>
 
 <style scoped>
-
+li{
+  transition: all 0.2s linear 0s;
+}
+li:hover,
+li:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-0.25em);
+  transition: all 0.2s linear 0s;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="card text-white bg-dark">
+  <div class="card text-white bg-dark" style="box-shadow: 0 0 15px black;">
     <div class="card-body">
       <div class="card-title">
         <h3>New Article</h3>

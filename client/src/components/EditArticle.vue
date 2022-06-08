@@ -1,5 +1,5 @@
 <template>
-  <div class="card text-white bg-dark">
+  <div class="card text-white bg-dark" style="box-shadow: 0 0 15px black;">
     <div class="card-body">
       <div class="card-title">
         <h3>Edit Article</h3>
@@ -15,7 +15,7 @@
         <div class="row mb-3">
           <div class="col">
             <label class="form-label">Text</label>
-            <textarea v-model="article.text" class="form-control bg-dark text-white" rows="5"></textarea>
+            <textarea v-model="article.text" class="form-control bg-dark text-white" rows="9"></textarea>
           </div>
         </div>
         <div class="row mb-3">

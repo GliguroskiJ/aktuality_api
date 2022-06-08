@@ -1,5 +1,5 @@
 <template>
-<div class="card bg-dark text-white" style="">
+<div class="card bg-dark text-white" style="box-shadow: 0 0 15px black;">
     <div class="card-body">
         <div class="card-title">CVUT News</div>
         <div class="card-subtitle">Denní zpravodajstvi</div>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="added confirm on delete">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="css test + removed some bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Article.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Bio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Bio.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/EditArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EditArticle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/NewArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewArticle.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Preview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Preview.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/AboutView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/HomeView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/articles.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server/articles.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/articles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,8 @@
       <workItem from="1652651005646" duration="4054000" />
       <workItem from="1652739471600" duration="15629000" />
       <workItem from="1654604134658" duration="1073000" />
-      <workItem from="1654610000670" duration="22422000" />
+      <workItem from="1654610000670" duration="23554000" />
+      <workItem from="1654679495542" duration="17885000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652552204143</created>
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653053134747</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="css test + removed some bugs">
+      <created>1654647009678</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654647009678</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +252,7 @@
     <MESSAGE value="updated router for edit article + some View and Vue files" />
     <MESSAGE value="probably done, will test and try to fix some errs" />
     <MESSAGE value="added confirm on delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="added confirm on delete" />
+    <MESSAGE value="css test + removed some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="css test + removed some bugs" />
   </component>
 </project>

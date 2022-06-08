@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-md-6 offset-md-3 p-5 bg-dark text-white rounded">
+    <div class="col-md-6 offset-md-3 p-5 bg-dark text-white rounded" style="box-shadow: 0 0 15px black;">
       <h3>{{ article.title }}</h3>
       <h6>{{ formattedDate }}</h6>
       <p v-html="article.text"></p>

@@ -18,6 +18,6 @@ export default {
 <style scoped>
 
 .cs-header {
-    height: 5vh;
+    height: 6vh;
 }
 </style>
