@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky-top mx-0" style="width: 100vw; box-shadow: 0 2px 10px 0 #a9a9a9; background-color: rgba(169,169,169,0.85); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);">
+  <div class="sticky-top mx-0" style="width: 100vw; box-shadow: 0 2px 10px 0 #dcdcdc; background-color: rgba(220,220,220,0.85); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);">
     <header class="d-flex flex-wrap justify-content-center py-0 mb-4">
       <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <router-link class="nav-link text-dark" to="/">

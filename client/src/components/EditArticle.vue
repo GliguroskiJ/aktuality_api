@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="card-footer">
-      <button type="button" @click="editData" class="btn float-end btn-primary"><em class="bi-check"/></button>
+      <button type="button" @click="editData" class="btn float-end btn-primary"><em class="bi bi-check2-all"/></button>
     </div>
   </div>
 </template>

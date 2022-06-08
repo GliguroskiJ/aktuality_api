@@ -6,7 +6,7 @@
       </div>
       <div class="col-xl-9 col-lg-8 text-white">
         <div class="card-body">
-          <h3 class="card-title">{{ title }}</h3>
+          <h3 class="card-title text-truncate">{{ title }}</h3>
           <p class="card-text my-5 truncate">{{ text }}</p>
           <ul class="float-start m-0 mb-3 p-0">
             <li class="nav-item btn p-0 m-0 border-0">
