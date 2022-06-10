@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="css">
+    <list default="true" id="7460e0fd-528f-4532-8e44-a0b7d6ea1603" name="Changes" comment="css update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Bio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Bio.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/EditArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EditArticle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Preview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Preview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Article.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/articles.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server/articles.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +109,10 @@
       <workItem from="1652739471600" duration="15629000" />
       <workItem from="1654604134658" duration="1073000" />
       <workItem from="1654610000670" duration="23554000" />
-      <workItem from="1654679495542" duration="18972000" />
+      <workItem from="1654679495542" duration="21529000" />
+      <workItem from="1654858161705" duration="36000" />
+      <workItem from="1654858214170" duration="898000" />
+      <workItem from="1654888319267" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652552204143</created>
@@ -221,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654727013690</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="css update">
+      <created>1654732254630</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654732254630</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +261,7 @@
     <MESSAGE value="added confirm on delete" />
     <MESSAGE value="css test + removed some bugs" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="css update" />
+    <option name="LAST_COMMIT_MESSAGE" value="css update" />
   </component>
 </project>

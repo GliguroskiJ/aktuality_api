@@ -4,9 +4,9 @@
       <h3>{{ article.title }}</h3>
       <h6>{{ formattedDate }}</h6>
       <p v-html="article.text"></p>
-      <button class="btn btn-danger text-black float-end" @click="del(article.id)"><em class="bi-trash"></em> Delete</button>
+      <button class="btn btn-danger text-black float-end btndel" @click="del(article.id)"><em class="bi-trash"></em> Delete</button>
       <router-link :to="`/earticle/${article.id}`">
-        <button class="btn btn-info float-end me-3"><em class="bi-pencil"></em> Edit</button>
+        <button class="btn btn-info float-end me-3 btnedit"><em class="bi-pencil"></em> Edit</button>
       </router-link>
     </div>
   </div>
@@ -63,5 +63,22 @@ export default {
 </script>
 
 <style scoped>
-
+.btndel{
+  transition: all 0.2s linear 0s;
+}
+.btndel:hover,
+.btndel:focus {
+  box-shadow: 0 0.5em 0.5em -0.3em red;
+  transform: translateY(-0.25em);
+  transition: all 0.2s linear 0s;
+}
+.btnedit{
+  transition: all 0.2s linear 0s;
+}
+.btnedit:hover,
+.btnedit:focus {
+  box-shadow: 0 0.5em 0.5em -0.3em turquoise;
+  transform: translateY(-0.25em);
+  transition: all 0.2s linear 0s;
+}
 </style>
